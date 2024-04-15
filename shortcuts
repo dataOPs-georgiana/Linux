@@ -9,6 +9,12 @@ source ~/.bashrc # Reloads bash config
 export API_KEY="123abc" 
 python script.py # script.py can access $API_KEY
 
+# Virtual environment
+python3 -m venv my_env
+source my_env/bin/activate # Activates the environment
+
+# Plugin 
+source ~/.zshrc # Reloads zsh config with plugins
 
 #!/bin/bash
 
