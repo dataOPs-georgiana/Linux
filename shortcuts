@@ -1,3 +1,15 @@
+# Alias example
+alias documents="cd ~/Documents"
+documents # Changes to Documents directory
+
+# Source example
+source ~/.bashrc # Reloads bash config
+
+# Export example
+export API_KEY="123abc" 
+python script.py # script.py can access $API_KEY
+
+
 #!/bin/bash
 
 # Function to generate SSH key pair
