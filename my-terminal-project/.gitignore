@@ -1,0 +1,53 @@
+# Python
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environment
+.venv/
+venv/
+env/
+# You might have other common virtual environment names:
+# .env/
+# .conda/
+
+# C extensions
+*.so
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy/
+
+# pytest
+.pytest_cache/
+.coverage
+.coverage.*
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+*.bak
+
+# macOS specific files
+.DS_Store
+
+# Logs
+*.log
+log/
+
+# Database files (if using SQLite for example)
+*.sqlite3
+*.db
+
+# Editor/IDE specific files
+.idea/             # IntelliJ IDEA
+.vscode/           # Visual Studio Code
+*.sublime-project  # Sublime Text
+*.sublime-workspace
+
